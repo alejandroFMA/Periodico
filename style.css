@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    margin: 0
+}
+
+h2, h3, h4{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    line-height: 20px;
+    
+}
+
+.periodico{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    
+}
+
+.info{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titulo_portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px 10px 20px;
+  
+}
+.exorcismo_titulo{
+
+    margin: 10px;
+
+}
+.bloque_ex {
+    display:flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    
+}
+
+.exorcismo_texto {
+   columns: 2;
+   margin:10px;
+   padding-bottom: 40px; 
+}
+
+.exorcismo_imagen {
+    padding-top: 10px;
+    size-adjust: 30%;
+    margin-right: 10px;
+
+}
+
+.bloque_mon {
+    display:flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.mono_imagen{
+    margin: 10px;
+}
+.mono_texto {
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.peque_contenido{
+    display:flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+
+.peques_imagen{
+    padding-top: 100px;
+}
+
+.peques_texto {
+    columns: 2;
+    margin:20px;
+   
+ }
+
+.resto_articulos{
+    display: flex;
+    align-content: baseline;
+
+}
+
+.planta_texto{
+    margin: 20px;
+}
+
+.popo{
+    border-left: 2px black solid;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+.planta_texto img{
+    padding-top: 24px;
+    padding-left: 100px;
+    width: 700px;
+    height: 280px;
+}
+
+.popo img{
+    padding-top: 40px;
+    padding-left: 250px;
+}
+
+footer{
+    padding-top: 10px;
+    border-top: 1px black solid;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
